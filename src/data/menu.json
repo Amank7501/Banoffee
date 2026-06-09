@@ -1,0 +1,158 @@
+{
+  "categories": [
+    {
+      "id": "small-bites",
+      "label": "Small Bites",
+      "description": "Individually crafted bites, perfect for gifting or indulging.",
+      "subcategories": [
+        {
+          "id": "brownies",
+          "label": "Brownies",
+          "note": "Pack of 4 · Pack of 6",
+          "items": [
+            { "name": "Fudge Brownie", "desc": "Dense, rich, intensely chocolatey" },
+            { "name": "Walnut Brownie", "desc": "Fudge brownie with toasted walnuts" },
+            { "name": "Biscoff Brownie", "desc": "Swirled with caramelised Biscoff spread" }
+          ]
+        },
+        {
+          "id": "tarts",
+          "label": "Tarts",
+          "note": "Pack of 4 · Pack of 6",
+          "items": [
+            { "name": "Chocolate Hazelnut Tart", "desc": "Buttery pastry shell, dark chocolate & hazelnut" },
+            { "name": "Lemon Tart", "desc": "Zesty lemon curd in a crisp pastry case" },
+            { "name": "Banoffee Pie", "desc": "Our namesake — toffee, banana, cream" }
+          ]
+        },
+        {
+          "id": "cupcakes",
+          "label": "Cupcakes",
+          "note": "Pack of 4 · Pack of 6",
+          "items": [
+            { "name": "Chocolate Cupcake", "desc": "Classic chocolate with ganache frosting" },
+            { "name": "Red Velvet Cupcake", "desc": "Velvety red with cream cheese frosting" },
+            { "name": "Biscoff Cupcake", "desc": "Caramel sponge with Biscoff buttercream" },
+            { "name": "Lemon Blueberry Cupcake", "desc": "Bright citrus with fresh blueberry compote" },
+            { "name": "Vanilla Cupcake", "desc": "Light vanilla bean with vanilla buttercream" },
+            { "name": "Mocha Cupcake", "desc": "Coffee-chocolate with mocha buttercream" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "celebration-cakes",
+      "label": "Celebration Cakes",
+      "description": "Baked to mark your most cherished moments.",
+      "subcategories": [
+        {
+          "id": "buttercream",
+          "label": "Buttercream Cakes",
+          "note": null,
+          "items": [
+            { "name": "Chocolate Cake with Vanilla Buttercream", "desc": "Rich chocolate layers with silky vanilla frosting" },
+            { "name": "Chocolate Cake with Chocolate Buttercream", "desc": "Double chocolate indulgence" }
+          ]
+        },
+        {
+          "id": "whipped-cream",
+          "label": "Whipped Cream Cakes",
+          "note": null,
+          "items": [
+            { "name": "Pineapple Cake", "desc": "Light sponge with tropical pineapple & cream" },
+            { "name": "Mixed Fruit Cake", "desc": "Fresh seasonal fruits on whipped cream" },
+            { "name": "Mango Delight Cake", "desc": "Mango mousse and fresh mango layers" },
+            { "name": "Blueberry Cake", "desc": "Vanilla sponge with blueberry compote & cream" },
+            { "name": "Pina Colada Cake", "desc": "Coconut and pineapple tropical celebration" }
+          ]
+        },
+        {
+          "id": "ganache",
+          "label": "Ganache Cakes",
+          "note": null,
+          "items": [
+            { "name": "Classic Chocolate Truffle Cake", "desc": "Layered chocolate with silky ganache" },
+            { "name": "Chocolate Hazelnut Cake", "desc": "Chocolate sponge with Ferrero-inspired ganache" },
+            { "name": "Chocolate Strawberry Cake", "desc": "Dark chocolate with fresh strawberry layers" }
+          ]
+        },
+        {
+          "id": "bento",
+          "label": "Bento Cakes",
+          "note": "Any flavor from above",
+          "items": [
+            { "name": "Bento Cake", "desc": "Mini celebration cake in any flavor — perfect for intimate occasions" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "label": "Desserts",
+      "description": "Timeless desserts made from scratch, daily.",
+      "subcategories": [
+        {
+          "id": "tres-leches",
+          "label": "Tres Leches",
+          "note": null,
+          "items": [
+            { "name": "Classic Tres Leches", "desc": "Soaked sponge in three milks, impossibly light" },
+            { "name": "Mango Tres Leches", "desc": "Classic tres leches with mango cream topping" }
+          ]
+        },
+        {
+          "id": "cookie-tins",
+          "label": "Cookie Tins",
+          "note": null,
+          "items": [
+            { "name": "Brown Butter Cookie Tin", "desc": "Nutty browned butter cookies, melt-in-mouth" },
+            { "name": "Chocolate Cookie Tin", "desc": "Rich dark chocolate cookies, gifting tin" }
+          ]
+        },
+        {
+          "id": "cheesecakes",
+          "label": "Cheesecakes & Classics",
+          "note": null,
+          "items": [
+            { "name": "New York Cheesecake", "desc": "Dense, creamy, classic — set in a buttery base" },
+            { "name": "Basque Cheesecake", "desc": "Burnt top, impossibly creamy center" },
+            { "name": "Classic Tiramisu", "desc": "Espresso-soaked ladyfingers, mascarpone cream" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "savouries",
+      "label": "Savouries",
+      "description": "A small, carefully chosen savoury selection.",
+      "subcategories": [
+        {
+          "id": "savoury-items",
+          "label": "From the Kitchen",
+          "note": null,
+          "items": [
+            { "name": "Korean Garlic Bun", "desc": "Pillowy bun with garlic butter and cream cheese" },
+            { "name": "Avocado Toast", "desc": "House sourdough with smashed avocado and toppings" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dry-healthy",
+      "label": "Dry & Healthy Cakes",
+      "description": "Wholesome bakes without compromise on taste.",
+      "subcategories": [
+        {
+          "id": "healthy-cakes",
+          "label": "Wholesome Bakes",
+          "note": null,
+          "items": [
+            { "name": "Banana Cake", "desc": "Naturally sweet with ripe bananas" },
+            { "name": "Ragi Chocolate Cake", "desc": "Finger millet chocolate cake — nutritious & delicious" },
+            { "name": "Carrot Cake", "desc": "Spiced carrot cake with cream cheese frosting" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "location": "Indiranagar, Bengaluru",
+    "rating": 5,
+    "text": "The Biscoff Brownie is unlike anything I've had. Dense, fudgy, with that caramel Biscoff swirl — I ordered twice in the same week. Banoffee is genuinely the best bakery in Bengaluru.",
+    "occasion": "Birthday Order"
+  },
+  {
+    "id": 2,
+    "name": "Arjun Mehta",
+    "location": "Koramangala, Bengaluru",
+    "rating": 5,
+    "text": "Ordered a custom chocolate truffle cake for our anniversary. The presentation was stunning and the taste was even better. You can feel the care and love that goes into every layer.",
+    "occasion": "Anniversary Cake"
+  },
+  {
+    "id": 3,
+    "name": "Sneha Iyer",
+    "location": "HSR Layout, Bengaluru",
+    "rating": 5,
+    "text": "The Basque Cheesecake is perfection — that creamy, slightly wobbly center with the burnt caramel top is exactly how it should be. Finally found a bakery that actually gets it right.",
+    "occasion": "Regular Customer"
+  },
+  {
+    "id": 4,
+    "name": "Rahul Nair",
+    "location": "Whitefield, Bengaluru",
+    "rating": 5,
+    "text": "What struck me first was the story behind the brand. Then the Banoffee Pie arrived and I understood completely — this is a bakery with a soul. Every bite genuinely carries a story.",
+    "occasion": "Gift Box"
+  },
+  {
+    "id": 5,
+    "name": "Kavya Reddy",
+    "location": "Jayanagar, Bengaluru",
+    "rating": 5,
+    "text": "The Classic Tiramisu is my weakness. Light mascarpone, perfectly soaked ladyfingers, just the right bitterness from the espresso. I bring a box to every dinner party and it disappears instantly.",
+    "occasion": "Dinner Party Order"
+  }
+]

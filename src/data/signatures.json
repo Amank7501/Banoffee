@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Banoffee Pie",
+    "desc": "The dessert that started it all. Toffee, banana, and clouds of whipped cream in a buttery biscuit shell.",
+    "tag": "Our Namesake",
+    "gradient": "from-[#8B5E3C] to-[#3B1A0A]"
+  },
+  {
+    "id": 2,
+    "name": "Chocolate Hazelnut Tart",
+    "desc": "Dark chocolate ganache and roasted hazelnuts in a crisp pastry shell. Elegant. Intense. Unforgettable.",
+    "tag": "Bestseller",
+    "gradient": "from-[#2C1A0E] to-[#3B1A0A]"
+  },
+  {
+    "id": 3,
+    "name": "Biscoff Brownie",
+    "desc": "Our fudgiest brownie, swirled generously with caramelised Biscoff spread. Dangerously good.",
+    "tag": "Fan Favourite",
+    "gradient": "from-[#C9924A] to-[#8B5E3C]"
+  },
+  {
+    "id": 4,
+    "name": "Chocolate Truffle Cake",
+    "desc": "Layers of moist chocolate sponge enrobed in silky dark chocolate ganache. The celebration cake.",
+    "tag": "Most Ordered",
+    "gradient": "from-[#3B1A0A] to-[#1a0a04]"
+  },
+  {
+    "id": 5,
+    "name": "New York Cheesecake",
+    "desc": "Dense, velvet-smooth cream cheese filling on a buttery graham base. Set overnight. Worth every bite.",
+    "tag": "Classic",
+    "gradient": "from-[#D4A055] to-[#8B5E3C]"
+  },
+  {
+    "id": 6,
+    "name": "Classic Tiramisu",
+    "desc": "Espresso-soaked ladyfingers layered with mascarpone cream and dusted with fine cocoa. Italian soul.",
+    "tag": "Signature Dessert",
+    "gradient": "from-[#8B5E3C] to-[#2C1A0E]"
+  }
+]
