@@ -29,8 +29,8 @@ export default function Footer() {
       {/* Top ornament */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#C9924A] to-transparent" />
 
-      <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-14 sm:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-12 items-start">
 
           {/* Brand */}
           <motion.div
@@ -38,12 +38,12 @@ export default function Footer() {
             initial="hidden"
             whileInView="visible"
             viewport={viewportConfig}
-            className="flex flex-col items-center md:items-start gap-4"
+            className="flex flex-col items-center sm:items-start gap-4"
           >
             <div className="w-20 h-20 rounded-full overflow-hidden ring-1 ring-[#C9924A]/40 bg-[#F9F3E8]">
               <img src={logo} alt="Banoffee" className="w-full h-full object-contain scale-[1.08]" />
             </div>
-            <p className="font-dancing text-xl text-[#C9924A] text-center md:text-left leading-relaxed">
+            <p className="font-dancing text-xl text-[#C9924A] text-center sm:text-left leading-relaxed">
               Where every bite begins a story
             </p>
             <p className="font-lato text-xs text-[#FFF8F0]/50 tracking-widest uppercase">
@@ -58,7 +58,7 @@ export default function Footer() {
             whileInView="visible"
             viewport={viewportConfig}
             custom={0.1}
-            className="flex flex-col items-center md:items-start gap-4"
+            className="flex flex-col items-center sm:items-start gap-4"
           >
             <p className="font-lato text-xs font-bold tracking-widest uppercase text-[#C9924A] mb-2">
               Quick Links
@@ -82,7 +82,7 @@ export default function Footer() {
             whileInView="visible"
             viewport={viewportConfig}
             custom={0.2}
-            className="flex flex-col items-center md:items-start gap-4"
+            className="flex flex-col items-center sm:items-start gap-4"
           >
             <p className="font-lato text-xs font-bold tracking-widest uppercase text-[#C9924A] mb-2">
               Connect With Us

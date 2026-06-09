@@ -34,7 +34,7 @@ export default function Testimonials() {
 
   return (
     <section className="bg-[#3B1A0A] overflow-hidden">
-      <div className="max-w-4xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 md:py-32">
         {/* Section header */}
         <motion.div
           variants={fadeUp}
@@ -57,7 +57,7 @@ export default function Testimonials() {
               initial="enter"
               animate="center"
               exit="exit"
-              className="text-center px-4 md:px-12"
+              className="text-center px-2 sm:px-4 md:px-12"
             >
               {/* Stars */}
               <div className="flex items-center justify-center gap-1 mb-8">
@@ -70,7 +70,7 @@ export default function Testimonials() {
               <div className="font-dancing text-8xl text-[#C9924A]/20 leading-none mb-2 select-none">"</div>
 
               {/* Quote */}
-              <p className="font-cormorant text-xl md:text-2xl font-light text-[#FFF8F0]/90 leading-relaxed italic -mt-8">
+              <p className="font-cormorant text-lg sm:text-xl md:text-2xl font-light text-[#FFF8F0]/90 leading-relaxed italic -mt-6 sm:-mt-8">
                 {t.text}
               </p>
 

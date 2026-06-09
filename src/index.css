@@ -78,10 +78,11 @@
 
   .section-heading {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(1.75rem, 6vw, 3.5rem);
     font-weight: 300;
-    letter-spacing: 0.1em;
+    letter-spacing: clamp(0.04em, 1vw, 0.12em);
     text-transform: uppercase;
+    line-height: 1.15;
   }
 
   .section-label {
@@ -95,8 +96,10 @@
   .btn-primary {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
-    padding: 0.85rem 2rem;
+    padding: 0.9rem 2rem;
+    min-height: 48px;
     background-color: #C9924A;
     color: #FFF8F0;
     font-family: 'Lato', sans-serif;
@@ -107,6 +110,7 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
   }
 
   .btn-primary:hover {
@@ -117,8 +121,10 @@
   .btn-outline {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
-    padding: 0.85rem 2rem;
+    padding: 0.9rem 2rem;
+    min-height: 48px;
     background-color: transparent;
     color: #FFF8F0;
     font-family: 'Lato', sans-serif;
@@ -129,6 +135,7 @@
     border: 1px solid rgba(255,248,240,0.5);
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
   }
 
   .btn-outline:hover {

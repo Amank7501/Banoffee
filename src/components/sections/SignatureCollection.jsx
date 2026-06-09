@@ -22,7 +22,7 @@ export default function SignatureCollection() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-32">
         {/* Section header */}
         <motion.div
           variants={fadeUp}
@@ -44,7 +44,7 @@ export default function SignatureCollection() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6"
         >
           {signatures.map((item) => (
             <SignatureCard key={item.id} item={item} />
@@ -66,13 +66,13 @@ function SignatureCard({ item }) {
       className="group relative bg-[#2C1A0E] border border-[#C9924A]/10 hover:border-[#C9924A]/40 overflow-hidden cursor-default transition-colors duration-300"
     >
       {/* Card image area */}
-      <div className={`relative h-56 bg-gradient-to-br ${item.gradient} overflow-hidden`}>
+      <div className={`relative h-36 sm:h-56 bg-gradient-to-br ${item.gradient} overflow-hidden`}>
         {/* Hover overlay */}
         <div className="absolute inset-0 bg-[#C9924A]/0 group-hover:bg-[#C9924A]/10 transition-all duration-500" />
 
         {/* Large emoji/icon as placeholder */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-8xl opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500 select-none">
+          <span className="text-5xl sm:text-8xl opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500 select-none">
             {CARD_ICONS[item.id]}
           </span>
         </div>
@@ -86,11 +86,11 @@ function SignatureCard({ item }) {
       </div>
 
       {/* Card body */}
-      <div className="p-6">
-        <h3 className="font-cormorant text-xl font-semibold text-[#FFF8F0] mb-2 group-hover:text-[#C9924A] transition-colors duration-300">
+      <div className="p-3 sm:p-6">
+        <h3 className="font-cormorant text-base sm:text-xl font-semibold text-[#FFF8F0] mb-1 sm:mb-2 group-hover:text-[#C9924A] transition-colors duration-300 leading-tight">
           {item.name}
         </h3>
-        <p className="font-lato text-sm text-[#FFF8F0]/50 leading-relaxed">
+        <p className="font-lato text-xs text-[#FFF8F0]/50 leading-relaxed hidden sm:block">
           {item.desc}
         </p>
         {/* Bottom accent line */}

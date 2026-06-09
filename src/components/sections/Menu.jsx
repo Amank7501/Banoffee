@@ -12,7 +12,7 @@ export default function Menu() {
     <section id="menu" className="bg-[#FFF8F0]">
       <div className="h-px bg-gradient-to-r from-transparent via-[#C9924A]/40 to-transparent" />
 
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-32">
         {/* Section header */}
         <motion.div
           variants={fadeUp}
@@ -35,7 +35,7 @@ export default function Menu() {
           whileInView="visible"
           viewport={viewportConfig}
           custom={0.1}
-          className="flex items-center justify-start md:justify-center gap-2 overflow-x-auto scrollbar-hide pb-4 mb-12"
+          className="flex items-center justify-start md:justify-center gap-2 overflow-x-auto scrollbar-hide pb-4 mb-10 -mx-4 sm:mx-0 px-4 sm:px-0"
         >
           {menuData.categories.map((cat) => (
             <button
@@ -100,7 +100,7 @@ function MenuSubcategory({ sub }) {
       </div>
 
       {/* Items grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
         {sub.items.map((item) => (
           <MenuItemCard key={item.name} item={item} />
         ))}

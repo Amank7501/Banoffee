@@ -54,8 +54,11 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           custom={0.4}
-          className="font-display text-[clamp(4rem,15vw,9rem)] font-bold text-[#FFF8F0] leading-none tracking-wider mb-6"
-          style={{ letterSpacing: '0.15em' }}
+          className="font-display font-bold text-[#FFF8F0] leading-none mb-6"
+          style={{
+            fontSize: 'clamp(2.4rem, 12.5vw, 9rem)',
+            letterSpacing: 'clamp(0.04em, 1vw, 0.18em)',
+          }}
         >
           BANOFFEE
         </motion.h1>
@@ -66,7 +69,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           custom={0.6}
-          className="font-dancing text-[clamp(1.4rem,4vw,2.2rem)] text-[#C9924A] mb-6 leading-relaxed"
+          className="font-dancing text-[clamp(1.2rem,5vw,2.2rem)] text-[#C9924A] mb-5 leading-relaxed px-2"
         >
           Where every bite begins a story
         </motion.p>
@@ -77,10 +80,9 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           custom={0.75}
-          className="font-lato text-sm md:text-base text-[#FFF8F0]/60 tracking-wider max-w-lg mx-auto mb-12 leading-relaxed"
+          className="font-lato text-sm md:text-base text-[#FFF8F0]/60 tracking-wide max-w-sm md:max-w-lg mx-auto mb-10 leading-relaxed px-4"
         >
-          Handcrafted brownies, cakes, cheesecakes, tarts, and desserts{' '}
-          <br className="hidden md:block" />made with love in Bengaluru.
+          Handcrafted brownies, cakes, cheesecakes, tarts, and desserts made with love in Bengaluru.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -89,17 +91,17 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           custom={0.9}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-col sm:flex-row items-center justify-center gap-3 w-full px-6 sm:px-0"
         >
           <button
             onClick={scrollToMenu}
-            className="btn-primary min-w-[180px] justify-center"
+            className="btn-primary w-full sm:w-auto sm:min-w-[180px] justify-center"
           >
             Explore Menu
           </button>
           <button
             onClick={scrollToStory}
-            className="btn-outline min-w-[180px] justify-center"
+            className="btn-outline w-full sm:w-auto sm:min-w-[180px] justify-center"
           >
             Our Story
           </button>

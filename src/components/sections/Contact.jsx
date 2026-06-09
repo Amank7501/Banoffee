@@ -46,7 +46,7 @@ export default function Contact() {
     <section id="contact" className="bg-[#FFF8F0]">
       <div className="h-px bg-gradient-to-r from-transparent via-[#C9924A]/40 to-transparent" />
 
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-32">
         {/* Section header */}
         <motion.div
           variants={fadeUp}
@@ -69,7 +69,7 @@ export default function Contact() {
             initial="hidden"
             whileInView="visible"
             viewport={viewportConfig}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+            className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 gap-3 sm:gap-4"
           >
             {contactItems.map((item) => (
               <ContactCard key={item.label} item={item} />
@@ -114,12 +114,12 @@ export default function Contact() {
               <p className="font-lato text-sm text-[#2C1A0E]/60 mb-6 leading-relaxed">
                 Every bake, every story, every moment — shared on Instagram daily.
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-3 sm:gap-4">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 bg-[#3B1A0A] text-[#FFF8F0] px-5 py-3 text-xs font-lato font-bold tracking-widest uppercase hover:bg-[#C9924A] transition-colors duration-300"
+                  className="flex items-center gap-2 bg-[#3B1A0A] text-[#FFF8F0] px-4 py-3 text-xs font-lato font-bold tracking-widest uppercase hover:bg-[#C9924A] transition-colors duration-300 flex-1 justify-center sm:flex-none sm:justify-start"
                 >
                   <FaInstagram size={15} />
                   Instagram
@@ -128,7 +128,7 @@ export default function Contact() {
                   href="https://wa.me/919999999999"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 bg-[#C9924A] text-[#FFF8F0] px-5 py-3 text-xs font-lato font-bold tracking-widest uppercase hover:bg-[#D4A055] transition-colors duration-300"
+                  className="flex items-center gap-2 bg-[#C9924A] text-[#FFF8F0] px-4 py-3 text-xs font-lato font-bold tracking-widest uppercase hover:bg-[#D4A055] transition-colors duration-300 flex-1 justify-center sm:flex-none sm:justify-start"
                 >
                   <FaWhatsapp size={15} />
                   WhatsApp

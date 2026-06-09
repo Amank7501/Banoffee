@@ -7,7 +7,7 @@ export default function OurStory() {
       {/* Top ornament */}
       <div className="h-px bg-gradient-to-r from-transparent via-[#C9924A]/40 to-transparent" />
 
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-6 py-16 md:py-32">
         {/* Section label */}
         <motion.div
           variants={fadeUp}
@@ -20,7 +20,7 @@ export default function OurStory() {
           <h2 className="section-heading text-[#3B1A0A]">Our Story</h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 lg:gap-20 items-center">
           {/* Image side */}
           <motion.div
             variants={fadeLeft}
@@ -30,7 +30,7 @@ export default function OurStory() {
             className="relative"
           >
             {/* Main image placeholder — styled as premium photo frame */}
-            <div className="relative aspect-[4/5] bg-gradient-to-br from-[#3B1A0A] to-[#8B5E3C] overflow-hidden">
+            <div className="relative w-full aspect-[4/5] max-h-[360px] sm:max-h-[440px] lg:max-h-none bg-gradient-to-br from-[#3B1A0A] to-[#8B5E3C] overflow-hidden">
               {/* Decorative inner frame */}
               <div className="absolute inset-4 border border-[#C9924A]/30 pointer-events-none z-10" />
 
@@ -59,7 +59,7 @@ export default function OurStory() {
             </div>
 
             {/* Accent block */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#C9924A]/10 border border-[#C9924A]/20 hidden lg:block" />
+            <div className="absolute -bottom-6 -right-6 w-20 h-20 md:w-32 md:h-32 bg-[#C9924A]/10 border border-[#C9924A]/20 hidden md:block" />
           </motion.div>
 
           {/* Text side */}
@@ -71,7 +71,7 @@ export default function OurStory() {
             className="flex flex-col gap-8"
           >
             {/* Pull quote */}
-            <div className="relative border-l-2 border-[#C9924A] pl-8 py-2">
+            <div className="relative border-l-2 border-[#C9924A] pl-6 py-2">
               <p className="font-dancing text-3xl md:text-4xl text-[#3B1A0A] leading-snug">
                 "One bite of Banoffee<br />changed everything."
               </p>

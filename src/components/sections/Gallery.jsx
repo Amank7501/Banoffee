@@ -26,7 +26,7 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className="bg-[#2C1A0E]">
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-32">
         {/* Section header */}
         <motion.div
           variants={fadeUp}
@@ -48,7 +48,7 @@ export default function Gallery() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
-          className="columns-2 md:columns-3 gap-4 space-y-4"
+          className="columns-2 md:columns-3 gap-2 sm:gap-4 space-y-2 sm:space-y-4"
         >
           {galleryItems.map((item, i) => (
             <GalleryItem
@@ -128,7 +128,7 @@ export default function Gallery() {
 }
 
 function GalleryItem({ item, index, onClick }) {
-  const heightClass = item.aspect === 'tall' ? 'h-72 md:h-80' : item.aspect === 'wide' ? 'h-44 md:h-52' : 'h-56 md:h-64'
+  const heightClass = item.aspect === 'tall' ? 'h-48 sm:h-72 md:h-80' : item.aspect === 'wide' ? 'h-32 sm:h-44 md:h-52' : 'h-40 sm:h-56 md:h-64'
 
   return (
     <motion.div
@@ -137,12 +137,12 @@ function GalleryItem({ item, index, onClick }) {
         visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } }
       }}
       whileHover={{ scale: 1.02 }}
-      className={`relative ${heightClass} break-inside-avoid mb-4 bg-gradient-to-br ${item.color} overflow-hidden cursor-pointer group`}
+      className={`relative ${heightClass} break-inside-avoid mb-2 sm:mb-4 bg-gradient-to-br ${item.color} overflow-hidden cursor-pointer group`}
       onClick={onClick}
     >
       {/* Emoji placeholder */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-6xl md:text-7xl opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500 select-none">
+        <span className="text-4xl sm:text-6xl md:text-7xl opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500 select-none">
           {item.emoji}
         </span>
       </div>

@@ -42,7 +42,7 @@ export default function CustomCakes() {
     <section id="custom-cakes" className="bg-[#FAF6EE]">
       <div className="h-px bg-gradient-to-r from-transparent via-[#C9924A]/40 to-transparent" />
 
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-32">
         {/* Section header */}
         <motion.div
           variants={fadeUp}
@@ -60,7 +60,7 @@ export default function CustomCakes() {
 
         {/* Sample cards */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-12 md:mb-20"
           variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
           initial="hidden"
           whileInView="visible"
@@ -84,7 +84,7 @@ export default function CustomCakes() {
         </motion.div>
 
         {/* Form + info */}
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-12 items-start">
           {/* Left: info */}
           <motion.div
             variants={fadeLeft}
