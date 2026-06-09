@@ -1,22 +1,26 @@
 import Hero from '../components/sections/Hero'
-import OurStory from '../components/sections/OurStory'
+import FoundersLetter from '../components/sections/FoundersLetter'
+import WhyBanoffee from '../components/sections/WhyBanoffee'
 import SignatureCollection from '../components/sections/SignatureCollection'
 import Menu from '../components/sections/Menu'
-import Gallery from '../components/sections/Gallery'
+import BehindTheKitchen from '../components/sections/BehindTheKitchen'
+import StoryCTA from '../components/sections/StoryCTA'
 import CustomCakes from '../components/sections/CustomCakes'
-import Testimonials from '../components/sections/Testimonials'
+import Gallery from '../components/sections/Gallery'
 import Contact from '../components/sections/Contact'
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <OurStory />
+      <FoundersLetter />
+      <WhyBanoffee />
       <SignatureCollection />
       <Menu />
-      <Gallery />
+      <BehindTheKitchen />
+      <StoryCTA />
       <CustomCakes />
-      <Testimonials />
+      <Gallery />
       <Contact />
     </main>
   )

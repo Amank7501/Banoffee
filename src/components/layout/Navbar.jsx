@@ -7,7 +7,7 @@ import logo from '../../assets/logo/logo.png'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
-  { label: 'Story', href: '#story' },
+  { label: 'Our Story', href: '#founders-letter' },
   { label: 'Menu', href: '#menu' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Custom Cakes', href: '#custom-cakes' },
