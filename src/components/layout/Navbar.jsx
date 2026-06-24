@@ -14,7 +14,7 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ]
 
-const WHATSAPP_NUMBER = '919999999999'
+const WHATSAPP_NUMBER = '919060976595'
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Banoffee!%20I'd%20love%20to%20place%20an%20order.`
 
 export default function Navbar() {

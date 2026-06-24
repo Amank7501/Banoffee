@@ -14,9 +14,9 @@ const contactItems = [
   {
     icon: <FaWhatsapp size={22} />,
     label: 'WhatsApp',
-    value: '+91 99999 99999',
+    value: '+91 90609 76595',
     sub: 'Mon – Sat · 9 AM – 8 PM',
-    href: 'https://wa.me/919999999999?text=Hi%20Banoffee!',
+    href: 'https://wa.me/919060976595?text=Hi%20Banoffee!',
   },
   {
     icon: <FaInstagram size={22} />,
@@ -28,9 +28,9 @@ const contactItems = [
   {
     icon: <MdEmail size={22} />,
     label: 'Email',
-    value: 'hello@banoffee.in',
+    value: 'hello@banoffeebakery.in',
     sub: 'We reply within 24 hours',
-    href: 'mailto:hello@banoffee.in',
+    href: 'mailto:hello@banoffeebakery.in',
   },
   {
     icon: <MdAccessTime size={22} />,
@@ -125,7 +125,7 @@ export default function Contact() {
                   Instagram
                 </a>
                 <a
-                  href="https://wa.me/919999999999"
+                  href="https://wa.me/919060976595"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-[#C9924A] text-[#FFF8F0] px-4 py-3 text-xs font-lato font-bold tracking-widest uppercase hover:bg-[#D4A055] transition-colors duration-300 flex-1 justify-center sm:flex-none sm:justify-start"

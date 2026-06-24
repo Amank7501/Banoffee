@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 import { fadeUp, viewportConfig } from '../../utils/animations'
 
 const WHATSAPP_URL =
-  'https://wa.me/9060976595?text=Hi%20Banoffee%2C%0AI%27d%20like%20to%20know%20more%20about%20your%20desserts.'
+  'https://wa.me/919060976595?text=Hi%20Banoffee%2C%0AI%27d%20like%20to%20know%20more%20about%20your%20desserts.'
 
 export default function StoryCTA() {
   const scrollToMenu = () => {

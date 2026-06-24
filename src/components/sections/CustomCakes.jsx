@@ -34,7 +34,7 @@ export default function CustomCakes() {
     const msg = encodeURIComponent(
       `Hi Banoffee! I'd like to enquire about a custom cake.\n\nName: ${form.name}\nOccasion: ${form.occasion}\nFlavor: ${form.flavor}\nDetails: ${form.description}`
     )
-    window.open(`https://wa.me/919999999999?text=${msg}`, '_blank')
+    window.open(`https://wa.me/919060976595?text=${msg}`, '_blank')
     setSubmitted(true)
   }
 
@@ -118,7 +118,7 @@ export default function CustomCakes() {
               <p className="font-lato text-xs text-[#C9924A] tracking-widest uppercase mb-2">Quick Order</p>
               <p className="font-cormorant text-lg text-[#FFF8F0] mb-4">Prefer to reach us directly?</p>
               <a
-                href="https://wa.me/919999999999?text=Hi%20Banoffee!%20I'd%20like%20a%20custom%20cake."
+                href="https://wa.me/919060976595?text=Hi%20Banoffee!%20I'd%20like%20a%20custom%20cake."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-[#C9924A] text-[#FFF8F0] px-5 py-3 text-xs font-lato font-bold tracking-widest uppercase hover:bg-[#D4A055] transition-colors duration-300"

@@ -14,8 +14,8 @@ const quickLinks = [
 
 const socials = [
   { icon: <FaInstagram size={18} />, href: 'https://instagram.com', label: 'Instagram' },
-  { icon: <FaWhatsapp size={18} />, href: 'https://wa.me/919999999999', label: 'WhatsApp' },
-  { icon: <MdEmail size={18} />, href: 'mailto:hello@banoffee.in', label: 'Email' },
+  { icon: <FaWhatsapp size={18} />, href: 'https://wa.me/919060976595', label: 'WhatsApp' },
+  { icon: <MdEmail size={18} />, href: 'mailto:hello@banoffeebakery.in', label: 'Email' },
 ]
 
 export default function Footer() {
