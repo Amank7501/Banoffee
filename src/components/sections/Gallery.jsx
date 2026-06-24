@@ -3,17 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { fadeUp, scaleIn, viewportConfig } from '../../utils/animations'
 import { HiX, HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 
-// Placeholder gallery items with gradient colors representing food photography
 const galleryItems = [
-  { id: 1, label: 'Biscoff Brownie', emoji: '🍫', color: 'from-[#3B1A0A] to-[#8B5E3C]', aspect: 'tall' },
-  { id: 2, label: 'Banoffee Pie', emoji: '🥧', color: 'from-[#C9924A] to-[#8B5E3C]', aspect: 'wide' },
-  { id: 3, label: 'NY Cheesecake', emoji: '🍰', color: 'from-[#D4A055] to-[#C9924A]', aspect: 'square' },
-  { id: 4, label: 'Chocolate Tart', emoji: '🍫', color: 'from-[#2C1A0E] to-[#3B1A0A]', aspect: 'square' },
-  { id: 5, label: 'Tiramisu', emoji: '☕', color: 'from-[#8B5E3C] to-[#3B1A0A]', aspect: 'tall' },
-  { id: 6, label: 'Celebration Cake', emoji: '🎂', color: 'from-[#C9924A] to-[#D4A055]', aspect: 'wide' },
-  { id: 7, label: 'Basque Cheesecake', emoji: '🍮', color: 'from-[#D4A055] to-[#8B5E3C]', aspect: 'square' },
-  { id: 8, label: 'Cookie Tin', emoji: '🍪', color: 'from-[#3B1A0A] to-[#C9924A]', aspect: 'square' },
-  { id: 9, label: 'Red Velvet Cupcake', emoji: '🧁', color: 'from-[#8B5E3C] to-[#C9924A]', aspect: 'tall' },
+  { id: 1, label: 'Banoffee Creations', image: '/images/gallery/45AD5E7A-84D6-4B71-A411-261414FBF70D.png', aspect: 'tall' },
+  { id: 2, label: 'Fresh from the Kitchen', image: '/images/gallery/4BBB6CF3-3A7E-43AC-8133-8B8E389E007D.jpeg', aspect: 'wide' },
+  { id: 3, label: 'Made with Love', image: '/images/gallery/IMG_1843.jpeg', aspect: 'square' },
+  { id: 4, label: 'Our Craft', image: '/images/gallery/IMG_9103.jpeg', aspect: 'square' },
 ]
 
 export default function Gallery() {
@@ -105,8 +99,12 @@ export default function Gallery() {
               className="max-w-lg w-full"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className={`w-full aspect-square bg-gradient-to-br ${galleryItems[lightboxIndex].color} flex items-center justify-center`}>
-                <span className="text-9xl opacity-60">{galleryItems[lightboxIndex].emoji}</span>
+              <div className="w-full aspect-square bg-[#2C1A0E] overflow-hidden">
+                <img
+                  src={galleryItems[lightboxIndex].image}
+                  alt={galleryItems[lightboxIndex].label}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="bg-[#2C1A0E] px-6 py-4">
                 <p className="font-cormorant text-xl text-[#FFF8F0]">{galleryItems[lightboxIndex].label}</p>
@@ -137,15 +135,15 @@ function GalleryItem({ item, index, onClick }) {
         visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } }
       }}
       whileHover={{ scale: 1.02 }}
-      className={`relative ${heightClass} break-inside-avoid mb-2 sm:mb-4 bg-gradient-to-br ${item.color} overflow-hidden cursor-pointer group`}
+      className={`relative ${heightClass} break-inside-avoid mb-2 sm:mb-4 bg-[#2C1A0E] overflow-hidden cursor-pointer group`}
       onClick={onClick}
     >
-      {/* Emoji placeholder */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-4xl sm:text-6xl md:text-7xl opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500 select-none">
-          {item.emoji}
-        </span>
-      </div>
+      {/* Real photo */}
+      <img
+        src={item.image}
+        alt={item.label}
+        className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
 
       {/* Hover overlay */}
       <div className="absolute inset-0 bg-[#3B1A0A]/0 group-hover:bg-[#3B1A0A]/40 transition-all duration-400" />

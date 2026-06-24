@@ -1,44 +1,109 @@
 [
   {
     "id": 1,
-    "name": "Banoffee Pie",
-    "desc": "The dessert that started it all. Toffee, banana, and clouds of whipped cream in a buttery biscuit shell.",
-    "tag": "Our Namesake",
-    "gradient": "from-[#8B5E3C] to-[#3B1A0A]"
+    "name": "Avocado Toast",
+    "desc": "Creamy avocado on perfectly toasted bread. A wholesome, flavourful bite to start your day right.",
+    "tag": "Savoury",
+    "image": "/images/signatures/avacado toast.jpeg"
   },
   {
     "id": 2,
-    "name": "Chocolate Hazelnut Tart",
-    "desc": "Dark chocolate ganache and roasted hazelnuts in a crisp pastry shell. Elegant. Intense. Unforgettable.",
-    "tag": "Bestseller",
-    "gradient": "from-[#2C1A0E] to-[#3B1A0A]"
+    "name": "Banoffee Pie",
+    "desc": "The dessert that started it all. Toffee, banana, and clouds of whipped cream in a buttery biscuit shell.",
+    "tag": "Our Namesake",
+    "image": "/images/signatures/banoffee pie.webp"
   },
   {
     "id": 3,
-    "name": "Biscoff Brownie",
-    "desc": "Our fudgiest brownie, swirled generously with caramelised Biscoff spread. Dangerously good.",
-    "tag": "Fan Favourite",
-    "gradient": "from-[#C9924A] to-[#8B5E3C]"
+    "name": "Black Forest Cake",
+    "desc": "Layers of dark chocolate sponge, cherries, and whipped cream. A timeless classic done beautifully.",
+    "tag": "Classic",
+    "image": "/images/signatures/black forest cake.jpeg",
+    "imagePosition": "top"
   },
   {
     "id": 4,
-    "name": "Chocolate Truffle Cake",
-    "desc": "Layers of moist chocolate sponge enrobed in silky dark chocolate ganache. The celebration cake.",
-    "tag": "Most Ordered",
-    "gradient": "from-[#3B1A0A] to-[#1a0a04]"
+    "name": "Jamun Tea Cake",
+    "desc": "A delicate tea cake infused with the bold flavour of jamun. Light, fragrant, and beautifully unique.",
+    "tag": "Seasonal Special",
+    "image": "/images/signatures/Jamun tea cake.jpeg"
   },
   {
     "id": 5,
-    "name": "New York Cheesecake",
-    "desc": "Dense, velvet-smooth cream cheese filling on a buttery graham base. Set overnight. Worth every bite.",
-    "tag": "Classic",
-    "gradient": "from-[#D4A055] to-[#8B5E3C]"
+    "name": "Jowar Mawa Cake",
+    "desc": "Wholesome jowar flour meets rich mawa in this rustic, indulgent cake. Tradition baked into every slice.",
+    "tag": "House Favourite",
+    "image": "/images/signatures/jowar mawa cake.png"
   },
   {
     "id": 6,
-    "name": "Classic Tiramisu",
+    "name": "Korean Buns",
+    "desc": "Pillowy soft milk buns with a generous filling. Inspired by Korean bakery tradition, made with love.",
+    "tag": "New Arrival",
+    "image": "/images/signatures/korean buns.jpeg",
+    "imagePosition": "top"
+  },
+  {
+    "id": 7,
+    "name": "Lily Cake",
+    "desc": "An elegant floral cake as beautiful as it is delicious. A showstopper for every celebration.",
+    "tag": "Signature",
+    "image": "/images/signatures/lily cake.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "London Chocolate Caramel Cake",
+    "desc": "A luxurious layered cake with deep chocolate sponge and silky caramel. London-inspired, Banoffee perfected.",
+    "tag": "Bestseller",
+    "image": "/images/signatures/london chocolate caramel cake.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Mango Coconut Cake",
+    "desc": "The tropical combination you didn't know you needed. Fresh mango and coconut in every dreamy bite.",
+    "tag": "Summer Special",
+    "image": "/images/signatures/Mango coconut cake.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Mix Fruit Cake",
+    "desc": "A celebration of seasonal fruits layered with light cream. Colourful, fresh, and utterly delightful.",
+    "tag": "Fan Favourite",
+    "image": "/images/signatures/mix fruit cake.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Pinacolada Cake",
+    "desc": "Pineapple, coconut, and cream layered into a cake that tastes like a beach holiday.",
+    "tag": "Tropical",
+    "image": "/images/signatures/pinacolada cake.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Ragi Chocolate Cake",
+    "desc": "Rich chocolate cake made with ragi flour — indulgent taste with a wholesome twist.",
+    "tag": "Guilt-Free",
+    "image": "/images/signatures/ragi chocolate cake.png"
+  },
+  {
+    "id": 13,
+    "name": "Tiramisu",
     "desc": "Espresso-soaked ladyfingers layered with mascarpone cream and dusted with fine cocoa. Italian soul.",
     "tag": "Signature Dessert",
-    "gradient": "from-[#8B5E3C] to-[#2C1A0E]"
+    "image": "/images/signatures/tiramisu.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Chocolate Truffle 2.0",
+    "desc": "Our upgraded truffle cake — deeper, richer, and more intense than ever. The ultimate chocolate experience.",
+    "tag": "Most Ordered",
+    "image": "/images/signatures/truffle 2.0.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Vanilla Caramel Cake",
+    "desc": "Soft vanilla sponge drenched in buttery caramel. Simple, elegant, and impossible to resist.",
+    "tag": "Crowd Pleaser",
+    "image": "/images/signatures/vanilla caramel cake.jpeg"
   }
 ]

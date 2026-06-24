@@ -2,15 +2,6 @@ import { motion } from 'framer-motion'
 import { fadeUp, staggerContainer, viewportConfig } from '../../utils/animations'
 import signatures from '../../data/signatures.json'
 
-const CARD_ICONS = {
-  1: '🥧',
-  2: '🍫',
-  3: '🍪',
-  4: '🎂',
-  5: '🍰',
-  6: '☕',
-}
-
 export default function SignatureCollection() {
   return (
     <section id="signatures" className="bg-[#3B1A0A] overflow-hidden relative">
@@ -44,7 +35,7 @@ export default function SignatureCollection() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
-          className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6"
+          className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6"
         >
           {signatures.map((item) => (
             <SignatureCard key={item.id} item={item} />
@@ -66,16 +57,16 @@ function SignatureCard({ item }) {
       className="group relative bg-[#2C1A0E] border border-[#C9924A]/10 hover:border-[#C9924A]/40 overflow-hidden cursor-default transition-colors duration-300"
     >
       {/* Card image area */}
-      <div className={`relative h-36 sm:h-56 bg-gradient-to-br ${item.gradient} overflow-hidden`}>
+      <div className="relative h-36 sm:h-56 bg-[#2C1A0E] overflow-hidden">
+        {/* Product image */}
+        <img
+          src={item.image}
+          alt={item.name}
+          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          style={{ objectPosition: item.imagePosition || 'center' }}
+        />
         {/* Hover overlay */}
         <div className="absolute inset-0 bg-[#C9924A]/0 group-hover:bg-[#C9924A]/10 transition-all duration-500" />
-
-        {/* Large emoji/icon as placeholder */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-5xl sm:text-8xl opacity-40 group-hover:opacity-60 group-hover:scale-110 transition-all duration-500 select-none">
-            {CARD_ICONS[item.id]}
-          </span>
-        </div>
 
         {/* Tag */}
         <div className="absolute top-4 left-4">

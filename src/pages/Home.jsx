@@ -3,7 +3,6 @@ import FoundersLetter from '../components/sections/FoundersLetter'
 import WhyBanoffee from '../components/sections/WhyBanoffee'
 import SignatureCollection from '../components/sections/SignatureCollection'
 import Menu from '../components/sections/Menu'
-import BehindTheKitchen from '../components/sections/BehindTheKitchen'
 import StoryCTA from '../components/sections/StoryCTA'
 import CustomCakes from '../components/sections/CustomCakes'
 import Gallery from '../components/sections/Gallery'
@@ -17,8 +16,7 @@ export default function Home() {
       <WhyBanoffee />
       <SignatureCollection />
       <Menu />
-      <BehindTheKitchen />
-      <StoryCTA />
+<StoryCTA />
       <CustomCakes />
       <Gallery />
       <Contact />
